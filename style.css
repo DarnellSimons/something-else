@@ -25,7 +25,7 @@
 
 body {
   background-image: url("/pictures/home_picture.jpg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   height: 100vh;
 }
@@ -71,35 +71,66 @@ body {
 
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: -168px;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color: #0e1111;
 
   .wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 150px;
+    height: auto;
     .content {
       font-family: f1;
       color: white;
     }
 
     .content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
       font-family: f1_bold;
       text-align: center;
       padding: 10px;
 
-      hr {
-        border: 1px solid red;
-        margin: 20px 100px;
+      .decor1 {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        margin: 10px 0;
+      }
+
+      .decor2 {
+        width: 90%;
+        height: 1px;
+        background-color: white;
+        margin: 10px 0;
+      }
+
+      img {
+        width: 5vw;
+        margin: 0 1rem;
+        padding: 0;
+      }
+
+      .images {
+        display: flex;
+        align-items: center;
+      }
+
+    .logo {
+      display: flex;
+      width: 90vw;
+      justify-content: left;
+
+      img {
+        width: auto;
+        height: 15px;
       }
     }
-    img {
-      height: auto;
-      width: 100px;
-      padding: 0 10px;
     }
   }
 }
