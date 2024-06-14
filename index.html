@@ -16,7 +16,6 @@
         <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="Formula 1" />
       </div>
       <div class="content">
-        <a href="/drivers/index.html">Drivers</a>
         <a href="https://www.google.com">Teams</a>
         <a href="https://www.google.com">Tracks</a>
       </div>
@@ -48,9 +47,9 @@
           <img src="./pictures/paramount.png" alt="paramount" />
         </div>
       </div>
-      <div class="logo">
-        <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg">
-      </div>
+    </div>
+    <div class="logo">
+      <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg">
     </div>
   </footer>
   <script>
@@ -58,11 +57,11 @@
     var currentTime = new Date().getTime();
 
     //if (lastModified !== currentTime) {
-    //localStorage.setItem('lastModified', currentTime);
-    //location.reload();
-    //}
-
-    setInterval(function () {
+      //localStorage.setItem('lastModified', currentTime);
+      //location.reload();
+      //}
+      
+      setInterval(function () {
       var currentTime = new Date().getTime();
       console.log(currentTime - lastModified)
       if ((currentTime - lastModified) > 2000) {
