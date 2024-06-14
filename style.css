@@ -121,16 +121,21 @@ footer {
         align-items: center;
       }
 
-    .logo {
-      display: flex;
-      
-      
+  .logo {
+    display: flex;
+    
+    
 
-      img {
-        width: auto;
-        height: 5px;
-      }
+    img {
+      width: auto;
+      height: 5px;
     }
+  }
+
+  .footerlogo {
+    width: 40px;
+    height: auto;
+  }
     }
   }
 }

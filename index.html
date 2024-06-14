@@ -49,27 +49,9 @@
       </div>
     </div>
     <div class="logo">
-      <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg">
+      <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" class="footerlogo">
     </div>
   </footer>
-  <script>
-    var lastModified = localStorage.getItem('lastModified');
-    var currentTime = new Date().getTime();
-
-    //if (lastModified !== currentTime) {
-      //localStorage.setItem('lastModified', currentTime);
-      //location.reload();
-      //}
-      
-      setInterval(function () {
-      var currentTime = new Date().getTime();
-      console.log(currentTime - lastModified)
-      if ((currentTime - lastModified) > 2000) {
-        localStorage.setItem('lastModified', currentTime);
-        location.reload();
-      }
-    }, 10000); // Check for updates every 10 seconds
-  </script>
 </body>
 
 </html>
