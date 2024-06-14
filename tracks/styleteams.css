@@ -1,34 +1,26 @@
 @font-face {
   font-family: f1;
-  src: url(./fonts/Formula1-Regular.ttf);
+  src: url(../fonts/Formula1-Regular.ttf);
 }
 
 @font-face {
   font-family: f1_bold;
-  src: url(./fonts/Formula1-Bold.ttf);
+  src: url(../fonts/Formula1-Bold.ttf);
 }
 
 @font-face {
   font-family: f1_wide;
-  src: url(./fonts/Formula1-Wide.ttf);
+  src: url(../fonts/Formula1-Wide.ttf);
 }
 
 @font-face {
   font-family: f1_black;
-  src: url(./fonts/Formula1-Black.ttf);
+  src: url(../fonts/Formula1-Black.ttf);
 }
 
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-image: url("./pictures/home_picture.jpg");
-  background-attachment: scroll;
-  background-size: cover;
-  height: 100vh;
-  background-position-y: 61px ;
 }
 
 .header {
