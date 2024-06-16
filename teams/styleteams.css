@@ -222,35 +222,32 @@ button {
   }
 
   .driver-stats {
-    display: flex;
+    border: 0;
+    border-top: 1px;
+    border-left: 1px;
+    border-top-left-radius: 10px;
+    border-style: solid;
+    border-color: #9a9a9a;
 
-    .driver1-info {
-      border: 0;
-      border-top: 1px;
-      border-left: 1px;
-      border-top-left-radius: 10px;
-      border-style: solid;
+
+    .driver-info {
+      padding: 16px;
       display: flex;
-
-      .driver2-info {
-        border: 0;
-        border-top: 1px;
-        border-right: 1px;
-        border-top-right-radius: 10px;
-        border-style: solid;
-        display: flex;
-      }
 
       .stat-name {
         font-family: f1_bold;
+        line-height: 27px;
       }
-
+  
       .stat-value {
         font-family: f1;
-        margin-left: 2ch;
+        margin-left: auto;
+        text-align: right;
+        line-height: 27px;
+
       }
     }
-  }
+  }   
 }
 
 footer {
