@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .header {
@@ -118,136 +118,142 @@ button {
   cursor: pointer;
 }
 
+.team {
+  width: auto;
+  height: auto;
+  
+  .wrapper {
+    border: 0;
+    border-top: 2px;
+    border-right: 2px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    height: auto;
+    width: 610px;
+    padding: 20px 20px 0 0;
+    .team-position {
+      display: flex;
+      font-family: f1_bold;
+      font-size: 42px;
+    
+      .points {
+        font-family: f1_wide;
+        font-size: 18px;
+        margin-left: auto;
+    
+        .pts {
+          font-size: 12px;
+          text-align: center;
+          border-radius: 4px;
+          color: white;
+          background-color: black;
+        }
+      }
+    }
+    hr {
+      margin: 5px 0;
+    }
+    .team-info {
+      display: flex;
+      font-family: f1_bold;
+      font-size: 25px;
+      border: 0;
+      border-left: 5px;
+      border-color: #3671c6;
+      border-style: solid;
+      padding: 0 0 0 10px;
+    
+      img {
+        margin-left: auto;
+        width: 32px;
+        height: 32px;
+      }
+    }
+    
+    .drivers {
+      display: flex;
+    }
+    
+    .driver-names {
+      margin: 5px 0;
+      width: 50%;
+      display: flex;
+      border: 0;
+      border-bottom: 1px;
+      border-right: 1px;
+      border-bottom-right-radius: 10px;
+      border-style: solid;
+      border-color: #9a9a9a;
+    
+      img {
+        border-bottom-right-radius: 9px;
+        margin-left: auto;
+        width: 48px;
+        height: 48px;
+      }
+    
+      .first-name {
+        font-family: f1;
+        font-size: 14px;
+        margin: auto 0.5ch auto 0;
+      }
+    
+      .last-name {
+        font-family: f1_bold;
+        font-size: 14px;
+        margin: auto 0;
+      }
+    }
+    
+    .driver-names:not(:first-child) {
+      margin-left: 2ch;
+    }
+    
+    .car {
+      margin: 5px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(pictures/plus-x2.avif);
+      background-size: 1.5%;
+    }
+    
+    .driver-stats {
+      border: 0;
+      border-top: 1px;
+      border-left: 1px;
+      border-top-left-radius: 10px;
+      border-style: solid;
+      border-color: #9a9a9a;
+    
+    
+      .driver-info {
+        padding: 16px;
+        display: flex;
+    
+        .stat-name {
+          font-family: f1_bold;
+          line-height: 27px;
+        }
+    
+        .stat-value {
+          font-family: f1;
+          margin-left: auto;
+          text-align: right;
+          line-height: 27px;
+    
+        }
+      }
+    }   
+  }
+}
+
+
 .item {
   scroll-snap-align: center;
   width: 630px;
   height: auto;
   background-color: white;
-  border: 0;
-  border-top: 2px;
-  border-right: 2px;
-  border-top-right-radius: 15px;
-  border-style: solid;
-  .wrapper {
-    height: auto;
-    width: 610px;
-    padding: 20px 20px 0 0;
-  }
-
-  .team-position {
-    display: flex;
-    font-family: f1_bold;
-    font-size: 42px;
-
-    .points {
-      font-family: f1_wide;
-      font-size: 18px;
-      margin-left: auto;
-
-      .pts {
-        font-size: 12px;
-        text-align: center;
-        border-radius: 4px;
-        color: white;
-        background-color: black;
-      }
-    }
-  }
-  hr {
-    margin: 5px 0;
-  }
-  .team-info {
-    display: flex;
-    font-family: f1_bold;
-    font-size: 25px;
-    border: 0;
-    border-left: 5px;
-    border-color: #3671c6;
-    border-style: solid;
-    padding: 0 0 0 10px;
-
-    img {
-      margin-left: auto;
-      width: 32px;
-      height: 32px;
-    }
-  }
-
-  .drivers {
-    display: flex;
-  }
-
-  .driver-names {
-    margin: 5px 0;
-    width: 50%;
-    display: flex;
-    border: 0;
-    border-bottom: 1px;
-    border-right: 1px;
-    border-bottom-right-radius: 10px;
-    border-style: solid;
-    border-color: #9a9a9a;
-
-    img {
-      border-bottom-right-radius: 9px;
-      margin-left: auto;
-      width: 48px;
-      height: 48px;
-    }
-
-    .first-name {
-      font-family: f1;
-      font-size: 14px;
-      margin: auto 0.5ch auto 0;
-    }
-
-    .last-name {
-      font-family: f1_bold;
-      font-size: 14px;
-      margin: auto 0;
-    }
-  }
-
-  .driver-names:not(:first-child) {
-    margin-left: 2ch;
-  }
-
-  .car {
-    margin: 5px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(pictures/plus-x2.avif);
-    background-size: 1.5%;
-  }
-
-  .driver-stats {
-    border: 0;
-    border-top: 1px;
-    border-left: 1px;
-    border-top-left-radius: 10px;
-    border-style: solid;
-    border-color: #9a9a9a;
-
-
-    .driver-info {
-      padding: 16px;
-      display: flex;
-
-      .stat-name {
-        font-family: f1_bold;
-        line-height: 27px;
-      }
-  
-      .stat-value {
-        font-family: f1;
-        margin-left: auto;
-        text-align: right;
-        line-height: 27px;
-
-      }
-    }
-  }   
 }
 
 footer {
