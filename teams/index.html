@@ -1,920 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styleteams.css" />
-  </head>
 
-  <body>
-    <div class="header">
-      <div class="wrapper">
-        <div class="logo">
-          <a href="../index.html">
-            <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="Formula 1" />
-          </a>
-        </div>
-        <div class="content">
-          <a href="index.html">Teams</a>
-          <a href="../tracks/index.html">Tracks</a>
-        </div>
-      </div>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styleteams.css" />
+</head>
+
+<body>
+  <div class="header">
     <div class="wrapper">
-
-      <div class="teams">
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="redbull">
-              <div class="team-info">
-                <p>Red Bull Racing</p>
-                <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-              </div>
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="redbull car" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>2</p>
-              <div class="points">
-                <p class="number">252</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="ferrari">
-              <div class="team-info">
-                <p>Ferrari</p>
-                <img src="pictures/ferrari-logo.avif" alt="ferrari logo" />
-              </div>
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Charles</p>
-                <p class="last-name">LECLERC</p>
-                <img src="pictures/chalec01.avif" alt="charles LECLERC" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Carlos</p>
-                <p class="last-name">SAINZ</p>
-                <img src="pictures/carsai01.avif" alt="Carlos SAINZ" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/ferrari.avif" alt="ferrari car" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Charles</p>
-                          <p class="last-name">LECLERC</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Monaco<br />35<br />1212<br />134<br />0<br />1 (x6)<br />1<br />16/10/1997<br />Monte Carlo, Monaco</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Carlos</p>
-                          <p class="last-name">SAINZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Spain<br />22<br />1090.5<br />193<br />0<br />1 (x3)<br />1<br />01/09/1994<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team">
-          <div class="wrapper">
-            <div class="team-position">
-              <p>1</p>
-              <div class="points">
-                <p class="301">301</p>
-                <p class="pts">pts</p>
-              </div>
-            </div>
-            <hr />
-            <div class="team-info">
-              <p>Red Bull Racing</p>
-              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
-            </div>
-            <hr />
-            <div class="drivers">
-              <div class="driver-names">
-                <p class="first-name">Max</p>
-                <p class="last-name">VERSTAPPEN</p>
-                <img src="pictures/maxver01.avif" alt="max verstappen" />
-              </div>
-              <div class="driver-names">
-                <p class="first-name">Sergio</p>
-                <p class="last-name">PEREZ</p>
-                <img src="pictures/serper01.avif" alt="sergio perez" />
-              </div>
-            </div>
-            <div class="car">
-              <img src="pictures/red-bull-racing.avif" alt="rb 19" />
-            </div>
-            <div class="driver-stats">
-              <div class="driver-info">
-                <div class="container">
-                  <div class="carousel-view">
-                    <button id="prev-btn" class="prev-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                        <path
-                          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-                        />
-                      </svg>
-                    </button>
-                    <div id="item-list" class="item-list">
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Max</p>
-                          <p class="last-name">VERSTAPPEN</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1 (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="driver-name">
-                          <p class="first-name">Sergio</p>
-                          <p class="last-name">PEREZ</p>
-                        </div>
-                        <hr />
-                        <div class="stats">
-                          <p class="stat-name">
-                            Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of birth:<br />Place
-                            of birth:
-                          </p>
-                          <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1 (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button id="next-btn" class="next-btn">
-                      <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                        <path
-                          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-      </div>
-    </div>
-    <footer>
-      <div class="wrapper">
-        <div class="content">
-          <p>Our Partners</p>
-          <div class="decor1"></div>
-          <div class="images">
-            <img src="../pictures/aramco.png" alt="aramco" />
-            <img src="../pictures/aws.png" alt="aws" />
-            <img src="../pictures/crypto.com.png" alt="crypto.com" />
-            <img src="../pictures/dhl.png" alt="dhl" />
-            <img src="../pictures/heineken.png" alt="heineken" />
-            <img src="../pictures/msc.png" alt="msc cruises" />
-            <img src="../pictures/firelli.png" alt="firelli" />
-            <img src="../pictures/quatar_airways.png" alt="quatar airways" />
-          </div>
-          <div class="decor2"></div>
-          <div class="images">
-            <img src="../pictures/rolex.png" alt="rolex" />
-            <img src="../pictures/salesforce.png" alt="salesforce" />
-            <img src="../pictures/ferrari.png" alt="ferrari trento" />
-            <img src="../pictures/globant.png" alt="globant" />
-            <img src="../pictures/lenovo.png" alt="lenovo" />
-            <img src="../pictures/liquimoly.png" alt="liquimoly" />
-            <img src="../pictures/paramount.png" alt="paramount" />
-          </div>
-        </div>
-      </div>
       <div class="logo">
-        <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" />
+        <a href="../index.html">
+          <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="Formula 1" />
+        </a>
       </div>
-      <div class="pagelinks">
+      <div class="content">
         <a href="index.html">Teams</a>
         <a href="../tracks/index.html">Tracks</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="teams">
+      <div class="team">
+        <div class="wrapper">
+          <div class="team-position">
+            <p>1</p>
+            <div class="points">
+              <p class="301">301</p>
+              <p class="pts">pts</p>
+            </div>
+          </div>
+          <hr />
+          <div class="name redbull">
+            <div class="team-info">
+              <p>Red Bull Racing</p>
+              <img src="pictures/red-bull-racing-logo.avif" alt="red bull racing logo" />
+            </div>
+          </div>
+          <hr />
+          <div class="drivers">
+            <div class="driver-names">
+              <p class="first-name">Max</p>
+              <p class="last-name">VERSTAPPEN</p>
+              <img src="pictures/maxver01.avif" alt="max verstappen" />
+            </div>
+            <div class="driver-names">
+              <p class="first-name">Sergio</p>
+              <p class="last-name">PEREZ</p>
+              <img src="pictures/serper01.avif" alt="sergio perez" />
+            </div>
+          </div>
+          <div class="car">
+            <img src="pictures/red-bull-racing.avif" alt="redbull car" />
+          </div>
+          <div class="driver-stats">
+            <div class="driver-info">
+              <div class="container">
+                <div class="carousel-view">
+                  <button id="prev-btn" class="prev-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+                      <path
+                        d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+                    </svg>
+                  </button>
+                  <div id="item-list" class="item-list">
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Max</p>
+                        <p class="last-name">VERSTAPPEN</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">Netherlands<br />105<br />2780.5<br />194<br />3<br />1
+                          (x60)<br />1<br />30/09/1997<br />Hasselt, Belgium</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Sergio</p>
+                        <p class="last-name">PEREZ</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">Mexico<br />39<br />1593<br />267<br />0<br />1
+                          (x6)<br />1<br />26/01/1990<br />Guadalajara, Mexico</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button id="next-btn" class="next-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+                      <path
+                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team">
+        <div class="wrapper">
+          <div class="team-position">
+            <p>2</p>
+            <div class="points">
+              <p class="number">252</p>
+              <p class="pts">pts</p>
+            </div>
+          </div>
+          <hr />
+          <div class="name ferrari ">
+            <div class="team-info">
+              <p>Ferrari</p>
+              <img src="pictures/ferrari-logo.avif" alt="ferrari logo" />
+            </div>
+          </div>
+          <hr />
+          <div class="drivers">
+            <div class="driver-names">
+              <p class="first-name">Charles</p>
+              <p class="last-name">LECLERC</p>
+              <img src="pictures/chalec01.avif" alt="charles LECLERC" />
+            </div>
+            <div class="driver-names">
+              <p class="first-name">Carlos</p>
+              <p class="last-name">SAINZ</p>
+              <img src="pictures/carsai01.avif" alt="Carlos SAINZ" />
+            </div>
+          </div>
+          <div class="car">
+            <img src="pictures/ferrari.avif" alt="ferrari car" />
+          </div>
+          <div class="driver-stats">
+            <div class="driver-info">
+              <div class="container">
+                <div class="carousel-view">
+                  <button id="prev-btn" class="prev-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+                      <path
+                        d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+                    </svg>
+                  </button>
+                  <div id="item-list" class="item-list">
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Charles</p>
+                        <p class="last-name">LECLERC</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">Monaco<br />35<br />1212<br />134<br />0<br />1
+                          (x6)<br />1<br />16/10/1997<br />Monte Carlo, Monaco</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Carlos</p>
+                        <p class="last-name">SAINZ</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">Spain<br />22<br />1090.5<br />193<br />0<br />1
+                          (x3)<br />1<br />01/09/1994<br />Madrid, Spain</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button id="next-btn" class="next-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+                      <path
+                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team">
+        <div class="wrapper">
+          <div class="team-position">
+            <p>3</p>
+            <div class="points">
+              <p class="number">252</p>
+              <p class="pts">pts</p>
+            </div>
+          </div>
+          <hr />
+          <div class="name mclaren">
+            <div class="team-info">
+              <p>McLaren</p>
+              <img src="pictures/mclaren-logo.avif" alt="mclaren logo" />
+            </div>
+          </div>
+          <hr />
+          <div class="drivers">
+            <div class="driver-names">
+              <p class="first-name">Lando</p>
+              <p class="last-name">NORRIS</p>
+              <img src="pictures/lannor01.avif" alt="Lando NORRIS" />
+            </div>
+            <div class="driver-names">
+              <p class="first-name">Oscar</p>
+              <p class="last-name">PIASTRI</p>
+              <img src="pictures/oscpia01.avif" alt="Oscar PIASTRI" />
+            </div>
+          </div>
+          <div class="car">
+            <img src="pictures/mclaren.avif" alt="mclaren car" />
+          </div>
+          <div class="driver-stats">
+            <div class="driver-info">
+              <div class="container">
+                <div class="carousel-view">
+                  <button id="prev-btn" class="prev-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+                      <path
+                        d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+                    </svg>
+                  </button>
+                  <div id="item-list" class="item-list">
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Lando</p>
+                        <p class="last-name">NORRIS</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">United Kingdom<br />18<br />764<br />113<br />0<br />1
+                          (x1)<br />1<br />13/11/1999<br />Bristol, England</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Oscar</p>
+                        <p class="last-name">PIASTRI</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">Australia<br />3<br />178<br />31<br />0<br />2
+                          (x2)<br />2<br />06/04/2001<br />Melbourne, Victoria</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button id="next-btn" class="next-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+                      <path
+                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team">
+        <div class="wrapper">
+          <div class="team-position">
+            <p>4</p>
+            <div class="points">
+              <p class="number">124</p>
+              <p class="pts">pts</p>
+            </div>
+          </div>
+          <hr />
+          <div class="name mercedes">
+            <div class="team-info">
+              <p>Mercedes</p>
+              <img src="pictures/mercedes-logo.avif" alt="Mercedes logo" />
+            </div>
+          </div>
+          <hr />
+          <div class="drivers">
+            <div class="driver-names">
+              <p class="first-name">Lewis</p>
+              <p class="last-name">HAMILTON</p>
+              <img src="pictures/lewham01.avif" alt="Lewis HAMILTON" />
+            </div>
+            <div class="driver-names">
+              <p class="first-name">George</p>
+              <p class="last-name">RUSSELL</p>
+              <img src="pictures/georus01.avif" alt="George RUSSELL" />
+            </div>
+          </div>
+          <div class="car">
+            <img src="pictures/mercedes.avif" alt="mercedes car" />
+          </div>
+          <div class="driver-stats">
+            <div class="driver-info">
+              <div class="container">
+                <div class="carousel-view">
+                  <button id="prev-btn" class="prev-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+                      <path
+                        d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+                    </svg>
+                  </button>
+                  <div id="item-list" class="item-list">
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">Lewis</p>
+                        <p class="last-name">HAMILTON</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">United Kingdom<br />197<br />4694.5<br />341<br />7<br />1
+                          (x103)<br />1<br />07/01/1985<br />Stevenage, England</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="driver-name">
+                        <p class="first-name">George</p>
+                        <p class="last-name">RUSSELL</p>
+                      </div>
+                      <hr />
+                      <div class="stats">
+                        <p class="stat-name">
+                          Country:<br />Podiums:<br />Points:<br />Grands Prix entered:<br />World
+                          Championships:<br />Highest race finish:<br />Highest grid position:<br />Date of
+                          birth:<br />Place
+                          of birth:
+                        </p>
+                        <p class="stat-value">United Kingdom<br />12<br />538<br />113<br />0<br />1
+                          (x1)<br />1<br />15/02/1998<br />King's Lynn, England</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button id="next-btn" class="next-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+                      <path
+                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <div class="content">
+        <p>Our Partners</p>
+        <div class="decor1"></div>
+        <div class="images">
+          <img src="../pictures/aramco.png" alt="aramco" />
+          <img src="../pictures/aws.png" alt="aws" />
+          <img src="../pictures/crypto.com.png" alt="crypto.com" />
+          <img src="../pictures/dhl.png" alt="dhl" />
+          <img src="../pictures/heineken.png" alt="heineken" />
+          <img src="../pictures/msc.png" alt="msc cruises" />
+          <img src="../pictures/firelli.png" alt="firelli" />
+          <img src="../pictures/quatar_airways.png" alt="quatar airways" />
+        </div>
+        <div class="decor2"></div>
+        <div class="images">
+          <img src="../pictures/rolex.png" alt="rolex" />
+          <img src="../pictures/salesforce.png" alt="salesforce" />
+          <img src="../pictures/ferrari.png" alt="ferrari trento" />
+          <img src="../pictures/globant.png" alt="globant" />
+          <img src="../pictures/lenovo.png" alt="lenovo" />
+          <img src="../pictures/liquimoly.png" alt="liquimoly" />
+          <img src="../pictures/paramount.png" alt="paramount" />
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" />
+    </div>
+    <div class="pagelinks">
+      <a href="index.html">Teams</a>
+      <a href="../tracks/index.html">Tracks</a>
+    </div>
+  </footer>
+</body>
 
-  <script>
-    const prev = document.getElementById("prev-btn");
-    const next = document.getElementById("next-btn");
-    const list = document.getElementById("item-list");
+<script>
+  const carousels = document.querySelectorAll('.container')
 
-    const itemWidth = 400;
-    const padding = 10;
+  const itemWidth = 400;
+  const padding = 10;
+
+  carousels.forEach((carousel, index) => {
+    const prev = carousel.querySelector("#prev-btn");
+    const next = carousel.querySelector("#next-btn");
+    const list = carousel.querySelector("#item-list");
 
     prev.addEventListener("click", () => {
       list.scrollLeft -= itemWidth + padding;
@@ -923,5 +441,8 @@
     next.addEventListener("click", () => {
       list.scrollLeft += itemWidth + padding;
     });
-  </script>
+  })
+
+</script>
+
 </html>

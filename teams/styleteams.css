@@ -195,20 +195,27 @@ button {
       }
     }
 
-    .redbull {
+    .name {
       border: 0;
       border-left: 5px;
-      border-color: #3671c6;
       border-style: solid;
       padding: 0 0 0 10px;
     }
 
+    .redbull {
+      border-color: #3671c6;
+    }
+
     .ferrari {
-      border: 0;
-      border-left: 5px;
       border-color: #e80020;
-      border-style: solid;
-      padding: 0 0 0 10px;
+    }
+
+    .mclaren {
+      border-color: #FF8000;
+    }
+
+    .mercedes {
+      border-color: #27F4D2;
     }
 
     .drivers {
