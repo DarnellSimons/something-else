@@ -218,6 +218,14 @@ button {
       border-color: #27F4D2;
     }
 
+    .aston-martin {
+      border-color: #229971;
+    }
+
+    .rb {
+      border-color: #6692ff;
+    }
+
     .drivers {
       display: flex;
     }
