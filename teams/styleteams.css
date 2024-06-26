@@ -161,6 +161,7 @@ button {
     height: auto;
     width: 610px;
     padding: 20px 20px 0 0;
+
     .team-position {
       display: flex;
       font-family: f1_bold;
@@ -206,6 +207,10 @@ button {
       border-color: #3671c6;
     }
 
+    .wrapper:has(.redbull):hover {
+      border-color: #3671c6;
+    }
+
     .ferrari {
       border-color: #e80020;
     }
@@ -224,6 +229,22 @@ button {
 
     .rb {
       border-color: #6692ff;
+    }
+
+    .alpine {
+      border-color: #0093cc;
+    }
+
+    .haas {
+      border-color: #b6babd;
+    }
+
+    .williams {
+      border-color: #64c4ff;
+    }
+
+    .kick-sauber {
+      border-color: #52e252;
     }
 
     .drivers {
