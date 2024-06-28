@@ -324,7 +324,16 @@ button {
         }
       }
     }
+    transition: .3s ease;
   }
+  transition: .3s ease;
+}
+
+.team:has(.wrapper:hover) {
+  margin-top: -10px;
+}
+.wrapper:hover {
+  border-color: #3671c6;
 }
 
 .item {
