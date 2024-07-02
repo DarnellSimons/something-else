@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #f6f4f0;
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 
       a {
         text-decoration: none;
-        color: white;
+        color: #f6f4f0;
         font-family: f1;
       }
     }
@@ -340,7 +340,7 @@ button {
   scroll-snap-align: center;
   width: 520px;
   height: auto;
-  background-color: white;
+  background-color: #f6f4f0;
 
   .stats {
     display: flex;
@@ -428,8 +428,6 @@ footer {
       width: 130px;
       height: auto;
       margin: 5px;
-      position: absolute;
-      bottom: 0px;
     }
   }
   .pagelinks {

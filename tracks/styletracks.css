@@ -65,23 +65,65 @@ body{
 }
 
 .wrapper {
-  .trackname {
-    img{
-      border-radius: 5px;
-      height: auto;
-      width: 56px;
-    }
-    p {
-      margin-left: 20px;
-    }
-    display: flex;
-    font-family: f1_bold;
-    font-size: 25px;
-  }
+  width: 900px;
+  height: auto;
   .track {
-    img{
-      width: 936px;
-      height: auto;
+    .trackname {
+      img{
+        border-radius: 5px;
+        height: auto;
+        width: 56px;
+      }
+      p {
+        margin-left: 20px;
+      }
+      display: flex;
+      font-family: f1_bold;
+      font-size: 25px;
+    }
+    .track {
+      img{
+        padding: 20px 0;
+        width: 936px;
+        height: auto;
+      }
+    }
+    .main-info {
+      padding: 10px;
+      padding-left: 0;
+      display: flex;
+      .spacing {
+        padding-right: 20px;
+        .info {
+          width: 300px;
+          padding: 20px;
+          border: 0;
+          border-radius: 0;
+          border-bottom: 1px;
+          border-right: 1px;
+          border-bottom-right-radius: 10px;
+          border-style: solid ;
+          border-color: #9a9a9a;
+          padding: 0 20px 20px 0;
+          .name {
+            font-size: 15px;
+            font-family: f1;
+          }
+          .value {
+            font-size: 32px;
+            font-family: f1_bold;
+          }
+          .km {
+            font-family: f1;
+            font-size: 15px;
+            margin-left: 0.5ch;
+            margin-top: 18px;
+          }
+          .track-length {
+            display: flex;
+          }
+        }
+      }
     }
   }
 }
@@ -142,9 +184,6 @@ footer {
       width: 130px;
       height: auto;
       margin: 5px;
-      position: absolute;
-      bottom: 0px;
-      
     }
   }
   .pagelinks {
