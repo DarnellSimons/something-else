@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: #f6f4f0;
+  background-color: white;
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 
       a {
         text-decoration: none;
-        color: #f6f4f0;
+        color: white;
         font-family: f1;
       }
     }
@@ -79,7 +79,7 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;  
+    justify-content: center;
   }
 }
 
@@ -89,10 +89,9 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;  
+    justify-content: center;
   }
 }
-
 
 button {
   border: none;
@@ -203,46 +202,52 @@ button {
       padding: 0 0 0 10px;
     }
 
+    &:hover:has(.redbull),
     .redbull {
-      border-color: #3671c6;
+      border-color: #3671c6 !important;
     }
 
-    .wrapper:has(.redbull):hover {
-      border-color: #3671c6;
-    }
-
+    &:hover:has(.ferrari),
     .ferrari {
-      border-color: #e80020;
+      border-color: #e80020 !important;
     }
 
+    &:hover:has(.mclaren),
     .mclaren {
-      border-color: #FF8000;
+      border-color: #ff8000;
     }
 
+    &:hover:has(.mercedes),
     .mercedes {
-      border-color: #27F4D2;
+      border-color: #27f4d2;
     }
 
+    &:hover:has(.aston-martin),
     .aston-martin {
       border-color: #229971;
     }
 
+    &:hover:has(.rb),
     .rb {
       border-color: #6692ff;
     }
 
+    &:hover:has(.alpine),
     .alpine {
       border-color: #0093cc;
     }
 
+    &:hover:has(.haas),
     .haas {
       border-color: #b6babd;
     }
 
+    &:hover:has(.williams),
     .williams {
       border-color: #64c4ff;
     }
 
+    &:hover:has(.kick-sauber),
     .kick-sauber {
       border-color: #52e252;
     }
@@ -324,23 +329,20 @@ button {
         }
       }
     }
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .team:has(.wrapper:hover) {
   margin-top: -10px;
-}
-.wrapper:hover {
-  border-color: #3671c6;
 }
 
 .item {
   scroll-snap-align: center;
   width: 520px;
   height: auto;
-  background-color: #f6f4f0;
+  background-color: white;
 
   .stats {
     display: flex;
@@ -432,7 +434,7 @@ footer {
   }
   .pagelinks {
     position: absolute;
-    bottom: 0px;
+    bottom: -1890px;
     display: flex;
     right: 10px;
 
