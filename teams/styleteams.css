@@ -377,6 +377,7 @@ button {
 }
 
 footer {
+  position: relative;
   height: auto;
   width: 100%;
   background-color: #0e1111;
@@ -434,10 +435,8 @@ footer {
   }
   .pagelinks {
     position: absolute;
-    bottom: -1890px;
-    display: flex;
-    right: 10px;
-
+    bottom: 0;
+    right: 0;
     a {
       text-decoration: none;
       color: white;

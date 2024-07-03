@@ -68,6 +68,7 @@ body{
   width: 900px;
   height: auto;
   .track {
+    padding: 20px;
     .trackname {
       img{
         border-radius: 5px;
@@ -96,7 +97,6 @@ body{
         padding-right: 20px;
         .info {
           width: 300px;
-          padding: 20px;
           border: 0;
           border-radius: 0;
           border-bottom: 1px;
@@ -122,13 +122,44 @@ body{
           .length {
             display: flex;
           }
+          .track-history-button {
+            width: 100%;
+            height: 100%;
+          }
         }
+      }
+    }
+    .lap-record {
+      width: 640px;
+      border: 0;
+      border-radius: 0;
+      border-bottom: 1px;
+      border-right: 1px;
+      border-bottom-right-radius: 10px;
+      border-style: solid ;
+      border-color: #9a9a9a;
+      padding: 0 20px 20px 0;
+      font-family: f1;
+      font-size: 15px;
+      .record {
+        font-family: f1_bold;
+        font-size: 36px;
+      }
+      .driver {
+        font-family: f1;
+        font-size: 15px;
+        margin-left: 0.5ch;
+        margin-top: 22px;
+      }
+      .sub-text {
+        display: flex;
       }
     }
   }
 }
 
 footer {
+  position: relative;
   height: auto;
   width: 100%;
   background-color: #0e1111;
@@ -185,10 +216,8 @@ footer {
   }
   .pagelinks {
     position: absolute;
-    bottom: 0px;
-    display: flex;
-    right: 10px;
-
+    bottom: 0;
+    right: 0;
     a {
       text-decoration: none;
       color: white;
