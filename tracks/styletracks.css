@@ -23,7 +23,7 @@
   padding: 0;
 }
 
-body{
+body {
   background-color: #f6f4f0;
 }
 .header {
@@ -65,12 +65,33 @@ body{
 }
 
 .wrapper {
+  position: relative;
+  .border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    background-color: white;
+    z-index: 100;
+  }
   width: 900px;
   height: auto;
   .track {
+    margin-top: 2rem;
+    border-top-right-radius: 2rem;
+      border: 0;
+      border-top: 3px;
+      border-right: 3px;
+      border-color: red;
+      border-style: solid;
     padding: 20px;
     .trackname {
-      img{
+      position: absolute;
+      top: -1rem;
+      left: 0;
+      background-color: #f6f4f0;
+      padding-right: 2rem;
+      img {
         border-radius: 5px;
         height: auto;
         width: 56px;
@@ -82,53 +103,66 @@ body{
       font-family: f1_bold;
       font-size: 25px;
     }
-    .track {
-      img{
+    .trackk {
+      img {
         padding: 20px 0;
         width: 936px;
         height: auto;
       }
     }
-    .main-info {
-      padding: 10px;
-      padding-left: 0;
+    .info-section {
       display: flex;
-      .spacing {
-        padding-right: 20px;
-        .info {
-          width: 300px;
-          border: 0;
-          border-radius: 0;
-          border-bottom: 1px;
-          border-right: 1px;
-          border-bottom-right-radius: 10px;
-          border-style: solid ;
-          border-color: #9a9a9a;
-          padding: 0 20px 20px 0;
-          .name {
-            font-size: 15px;
-            font-family: f1;
-          }
-          .value {
-            font-size: 32px;
-            font-family: f1_bold;
-          }
-          .km {
-            font-family: f1;
-            font-size: 15px;
-            margin-left: 0.5ch;
-            margin-top: 18px;
-          }
-          .length {
-            display: flex;
-          }
-          .track-history-button {
-            width: 100%;
-            height: 100%;
+
+      .main-info {
+        padding: 10px;
+        padding-left: 0;
+        display: flex;
+        .spacing {
+          padding-right: 20px;
+          .info {
+            flex-direction: column;
+            width: 300px;
+            border: 0;
+            border-radius: 0;
+            border-bottom: 1px;
+            border-right: 1px;
+            border-bottom-right-radius: 10px;
+            border-style: solid;
+            border-color: #9a9a9a;
+            padding: 0 20px 20px 0;
+            .name {
+              color: rgb(180, 0, 0);
+              font-size: 15px;
+              font-family: f1;
+            }
+            .value {
+              font-size: 32px;
+              font-family: f1_bold;
+            }
+            .km {
+              font-family: f1;
+              color: rgb(180, 0, 0);
+              font-size: 15px;
+              margin-left: 0.5ch;
+              margin-top: 18px;
+            }
+            .length {
+              display: flex;
+            }
+            .track-history-button {
+              display: flex;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+            }
           }
         }
       }
+      transition: transform .5s ease;
     }
+    /* .info-section:hover {
+      transform: translateX(-600px);
+    } */
     .lap-record {
       width: 640px;
       border: 0;
@@ -136,16 +170,19 @@ body{
       border-bottom: 1px;
       border-right: 1px;
       border-bottom-right-radius: 10px;
-      border-style: solid ;
+      border-style: solid;
       border-color: #9a9a9a;
       padding: 0 20px 20px 0;
       font-family: f1;
       font-size: 15px;
+      color: rgb(180, 0, 0);
       .record {
         font-family: f1_bold;
         font-size: 36px;
+        color: black;
       }
       .driver {
+        color: rgb(180, 0, 0);
         font-family: f1;
         font-size: 15px;
         margin-left: 0.5ch;
