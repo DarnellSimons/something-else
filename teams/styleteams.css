@@ -70,7 +70,6 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
 }
 
 @media (max-width: 2140px) {
@@ -79,7 +78,6 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
   }
 }
 
@@ -89,7 +87,6 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
   }
 }
 

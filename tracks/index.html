@@ -304,19 +304,22 @@
   </footer>
 
   <script>
-    
-      document.querySelector('.track').addEventListener('mouseover', (event) => {
-        document.querySelector('.track').scroll({
+    const tracks = document.querySelectorAll('.track')
+
+    tracks.forEach((track, index) => {
+      track.addEventListener('mouseover', (event) => {
+          track.scroll({
           left: 936,
           behavior: 'smooth'
         })
       })
-      document.querySelector('.track').addEventListener('mouseout', (event) => {
-        document.querySelector('.track').scroll({
+      track.addEventListener('mouseout', (event) => {
+        track.scroll({
           left: 0,
           behavior: 'smooth'
         })
       })
+    })
   </script>
 </body>
 </html>
