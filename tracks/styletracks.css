@@ -28,8 +28,9 @@ body {
 }
 .header {
   width: calc(100% - 2rem);
-  background-color: red;
+  background-color: rgb(180, 0, 0);
   padding: 0 1rem;
+  margin-bottom: 20px;
 
   .wrapper {
     width: calc(100% - 180px);
@@ -96,7 +97,7 @@ body {
       zoom: 0.5;
       }
   .wrapper {
-    margin: 0 auto;
+    margin: 20px;
     position: relative;
     padding: 40px 20px;
     .border {
@@ -118,7 +119,7 @@ body {
       border: 0;
       border-top: 4px;
       border-right: 4px;
-      border-color: red;
+      border-color: rgb(180, 0, 0);
       border-style: solid;
       padding: 20px;
       margin-right: 18px;
