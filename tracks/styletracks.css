@@ -65,6 +65,28 @@ body {
   }
 }
 
+.title {
+  margin: 20px;
+  border: 0;
+  border-bottom: 3px;
+  border-right: 3px;
+  border-bottom-right-radius: 10px;
+  border-style: solid;
+  width: 50vw;
+  border-color: rgb(180, 0, 0);
+  .line1 {
+    width: 500px;
+    font-family: f1_wide;
+    padding: 1rem;
+  }
+  .line2 {
+    width: 540px;
+    padding: 1rem;
+    font-family: f1;
+    padding-top: 0;
+  }
+}
+
 .container {
   display: flex;
   justify-content: center;
